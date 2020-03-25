@@ -36,4 +36,14 @@
         android:textAllCaps="false"
         app:layout_constraintStart_toStartOf="@+id/button_coroutine_basic_job_example"
         app:layout_constraintTop_toBottomOf="@+id/button_coroutine_basic_job_example" />
+
+    <Button
+        android:id="@+id/button_singleton_example"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Singleton example"
+        android:textAllCaps="false"
+        app:layout_constraintStart_toStartOf="@+id/button_coroutine_async_example"
+        app:layout_constraintTop_toBottomOf="@+id/button_coroutine_async_example"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

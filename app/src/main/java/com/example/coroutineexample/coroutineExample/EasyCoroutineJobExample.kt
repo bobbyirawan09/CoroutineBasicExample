@@ -1,9 +1,10 @@
-package com.example.coroutineexample
+package com.example.coroutineexample.coroutineExample
 
 import android.os.Bundle
 import android.widget.ProgressBar
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.example.coroutineexample.R
 import kotlinx.android.synthetic.main.activity_easy_coroutine_job_example.*
 import kotlinx.coroutines.*
 import kotlinx.coroutines.Dispatchers.IO
