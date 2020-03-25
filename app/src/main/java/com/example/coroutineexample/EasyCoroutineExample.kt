@@ -1,6 +1,5 @@
 package com.example.coroutineexample
 
-import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_easy_coroutine_example.*
@@ -19,10 +18,6 @@ class EasyCoroutineExample : AppCompatActivity() {
             CoroutineScope(Dispatchers.IO).launch {
                 fakeApiRequest()
             }
-        }
-
-        button_next_example.setOnClickListener {
-            startActivity(Intent(this, EasyCoroutineJobExample::class.java))
         }
     }
 
